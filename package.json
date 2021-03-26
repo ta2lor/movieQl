@@ -1,0 +1,22 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Movie api with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "MovieQl test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ta2lor/movieQl.git"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "hyoseok Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ta2lor/movieQl/issues"
+  },
+  "homepage": "https://github.com/ta2lor/movieQl#readme"
+}
