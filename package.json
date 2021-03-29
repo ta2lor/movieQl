@@ -4,7 +4,8 @@
   "description": "Movie api with GraphQL",
   "main": "index.js",
   "scripts": {
-    "test": "MovieQl test"
+    "test": "MovieQl test",
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/ta2lor/movieQl/issues"
   },
-  "homepage": "https://github.com/ta2lor/movieQl#readme"
+  "homepage": "https://github.com/ta2lor/movieQl#readme",
+  "dependencies": {
+    "babel-node": "0.0.1-security",
+    "graphql-yoga": "^1.18.3"
+  }
 }
